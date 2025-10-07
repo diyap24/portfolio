@@ -6,7 +6,7 @@ export const site = {
   email: 'diyadp25@gmail.com',
   github: 'https://github.com/diyap24',
   linkedin: 'https://www.linkedin.com/in/diya-patel-58639b210/',
-  resume: 'https://drive.google.com/file/d/1L7HYP82KOkDyWEjMNnSr4cjTNJ8uYvg-/view?usp=sharing' // place your resume at public/resume.pdf
+  resume: 'https://drive.google.com/file/d/1GhrHlPv4dG4sq6bji7zxwpbH4jHlvTh1/view?usp=sharing' // place your resume at public/resume.pdf
 };
 
 export const skills: string[] = [
