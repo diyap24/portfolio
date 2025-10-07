@@ -21,10 +21,10 @@ export default function ProjectCard({ project }: { project: Project }) {
       </div>
       <div className="relative z-10 mt-5 flex gap-4 text-sm">
         {project.link && (
-          <Link href={project.link} target="_blank" className="text-brand-600 dark:text-brand-400 hover:underline">Live</Link>
+          <a href={project.link} target="_blank" rel="noreferrer" className="text-brand-600 dark:text-brand-400 hover:underline">Live</a>
         )}
         {project.repo && (
-          <Link href={project.repo} target="_blank" className="text-gray-700 dark:text-gray-300 hover:underline">Code</Link>
+          <a href={project.repo} target="_blank" rel="noreferrer" className="text-gray-700 dark:text-gray-300 hover:underline">Code</a>
         )}
       </div>
     </div>
